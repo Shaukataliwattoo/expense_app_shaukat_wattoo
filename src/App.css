@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: rgb(243, 236, 236);
+  background-image:url(https://m.economictimes.com/thumb/height-450,width-600,imgsize-2811333,msid-69377631/pakistan-money-getty-1200.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +28,7 @@ body {
   border-radius: 8px;
   color: rgb(141, 124, 180);
 }
+
 
 .data {
   /* new transaction & amount */
