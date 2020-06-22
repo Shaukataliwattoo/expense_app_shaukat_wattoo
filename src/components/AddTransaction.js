@@ -33,7 +33,7 @@ export const AddTransaction = () => {
                         <label htmlFor="amount">
                             <span className="data">Fill Amount: رقم درج کریں</span>
                             <br />
-                            <span className="data3">Note: Use - sign for expense :  نوٹ: خرچ کے لیے نفی - کی علامت استعمال کریں </span>
+                            <span className="data3">Note: Use minus - sign for expense :  نوٹ: خرچ کے لیے نفی - کی علامت استعمال کریں </span>
                         </label>
                     <input type="number" value={amount} 
                         onChange={(e)=> setAmount(e.target.value)} 
