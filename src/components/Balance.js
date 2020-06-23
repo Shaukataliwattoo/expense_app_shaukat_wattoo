@@ -9,7 +9,7 @@ export const Balance = () => {
 
     return (
         <>
-            <h4 className="data1">Current Balance موجودہ بیلنس</h4>
+            <h1>Current Balance موجودہ بیلنس</h1>
             <h1>Rs.  روپے{total}</h1>
         </>
     )

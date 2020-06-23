@@ -37,7 +37,8 @@ export const AddTransaction = () => {
                             <br />
                             <span className="data3">Note: Use minus - sign for expense :  نوٹ: خرچ کے لیے نفی - کی علامت استعمال کریں </span>
                         </label>
-                    <input type="number" value={amount} 
+                        <br />
+                    <input type="float" value={amount} 
                         onChange={(e)=> setAmount(e.target.value)} 
                         placeholder="Enter Amount :  رقم درج کریں" />
                 </div>
