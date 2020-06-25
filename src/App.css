@@ -50,13 +50,13 @@ body {
 h1 {  
   /* balance amount */
   background-color: whitesmoke;
-  height: 30px;
+  height: auto;
   text-align: center;
   letter-spacing: 0px;
   margin: 0;
   padding-top: 2px;
   color:black;
-  font-size: 2vw;
+  font-size: auto;
   border-radius: 15px;
   box-shadow: 0 4px 4px 0 rgb(49, 1, 63);
 }
@@ -101,11 +101,11 @@ h4.data1 {
   /* your balance heading */
   color:black;
   text-align: center;
-  font-size: 2vw;
+  font-size: auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin: 0;
-  text-transform: uppercase;
+  margin: 10px 0;
+  text-transform: capitalize;
 }
 .data1:hover {
   background-color: rgb(174, 119, 238);
